@@ -1,0 +1,6 @@
+# The updater pins these by SHA-256. Any line-ending or text munging corrupts the hash
+# and every client silently refuses the update - mark them binary explicitly.
+*.exe binary
+*.dll binary
+*.zip binary
+lic.json -text
