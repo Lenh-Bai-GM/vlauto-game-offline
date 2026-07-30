@@ -3,4 +3,5 @@
 *.exe binary
 *.dll binary
 *.zip binary
+*.pak binary
 lic.json -text
